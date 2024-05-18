@@ -1,0 +1,475 @@
+.root {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.salongologo1 {
+  position: absolute;
+  left: 130px;
+  top: 88px;
+  width: 170px;
+  height: 93px;
+  background-image:/* webpackIgnore: true */ url('/assets/salongologo1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 0px 0px #000000b8;
+}
+.services {
+  color: #000;
+  font-size: 18px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 834px;
+  top: 125px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.findASalon {
+  color: #000;
+  font-size: 18px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 937px;
+  top: 125px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.products {
+  color: #000;
+  font-size: 18px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1077px;
+  top: 125px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.listYourSalon {
+  color: #000;
+  font-size: 18px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1186px;
+  top: 125px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle25 {
+  position: absolute;
+  left: 0;
+  top: 2004px;
+  width: 1440px;
+  height: 272px;
+  background-color: #000;
+}
+.rectangle26 {
+  position: absolute;
+  left: 130px;
+  top: 413px;
+  width: 381px;
+  height: 61px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #f4f4fc;
+}
+.rectangle27 {
+  position: absolute;
+  left: 510px;
+  top: 413px;
+  width: 300px;
+  height: 61px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #f4f4fc;
+}
+.rectangle29 {
+  position: absolute;
+  left: 809px;
+  top: 413px;
+  width: 321px;
+  height: 61px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #f4f4fc;
+}
+.rectangle28 {
+  position: absolute;
+  left: 1129px;
+  top: 413px;
+  width: 181px;
+  height: 61px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  background-color: #000;
+}
+.nameOrLocation {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 186px;
+  top: 434px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.searchServices {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 573px;
+  top: 434px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.anytime {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 830px;
+  top: 434px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.search {
+  color: #fff;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1193px;
+  top: 434px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle30 {
+  position: absolute;
+  left: 130px;
+  top: 627px;
+  width: 580px;
+  height: 292px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 25px;
+  background-color: #f4f4fc;
+}
+.rectangle33 {
+  position: absolute;
+  left: 730px;
+  top: 627px;
+  width: 578px;
+  height: 292px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 25px;
+  background-color: #f4f4fc;
+}
+.rectangle32 {
+  position: absolute;
+  left: 472px;
+  top: 627px;
+  width: 238px;
+  height: 292px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 0 25px 25px 0;
+  background-color: #000;
+}
+.rectangle34 {
+  position: absolute;
+  left: 1072px;
+  top: 627px;
+  width: 236px;
+  height: 292px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 0 25px 25px 0;
+  background-color: #000;
+}
+.findTopRatedSalonsSpasAndParlo {
+  color: #000;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 755px;
+  top: 719px;
+  width: 305px;
+  height: min-content;
+  flex-direction: column;
+}
+.hairBeautyAppointmentsAtYourFi {
+  position: absolute;
+  left: 154px;
+  top: 719px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock {
+  color: #000;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #000;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock3 {
+  color: #000;
+  font-size: 30px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.rectangle35 {
+  position: absolute;
+  left: 130px;
+  top: 1081px;
+  width: 1178px;
+  height: 745px;
+  border-radius: 25px;
+  background-color: #000;
+}
+.rectangle36 {
+  position: absolute;
+  left: 210px;
+  top: 1322px;
+  width: 1020px;
+  height: 433px;
+  border-radius: 25px;
+  background-color: #f4f4fc;
+}
+.salongologo2 {
+  position: absolute;
+  left: 177px;
+  top: 1081px;
+  width: 170px;
+  height: 93px;
+  background-image:/* webpackIgnore: true */ url('/assets/salongologo2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 0px 0px #000000b8;
+}
+.cRMSoftware {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.18em;
+  position: absolute;
+  left: 188px;
+  top: 1174px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle37 {
+  position: absolute;
+  left: 593px;
+  top: 1121px;
+  width: 300px;
+  height: 76px;
+  border-radius: 43px;
+  background-color: #5cd5ff;
+}
+.forSalons {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.18em;
+  position: absolute;
+  left: 663px;
+  top: 1145px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.search2 {
+  position: absolute;
+  left: 146px;
+  top: 434px;
+  width: 18px;
+  height: 18px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.search3 {
+  position: absolute;
+  left: 533px;
+  top: 434px;
+  width: 18px;
+  height: 18px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.vector {
+  position: absolute;
+  left: 76.1111%;
+  right: 23.0556%;
+  top: 19.2882%;
+  bottom: 80.4482%;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.aboutUsContactUsBlog {
+  position: absolute;
+  left: 249px;
+  top: 2044px;
+  width: 229px;
+  height: 26px;
+  flex-direction: column;
+}
+.textBlock4 {
+  color: #fff;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock5 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock6 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.cookiePolicy {
+  color: #fff;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 531px;
+  top: 2159px;
+  width: 216px;
+  height: 26px;
+  flex-direction: column;
+}
+.privacyPolicy {
+  color: #fff;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 531px;
+  top: 2119px;
+  width: 220px;
+  height: 27px;
+  flex-direction: column;
+}
+.fAQs {
+  color: #fff;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 531px;
+  top: 2199px;
+  width: 82px;
+  height: 26px;
+  flex-direction: column;
+}
+.termsAndConditions {
+  color: #fff;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 531px;
+  top: 2044px;
+  width: 345px;
+  height: 26px;
+  flex-direction: column;
+}
+.cancellationAndRefund {
+  color: #fff;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 531px;
+  top: 2083px;
+  width: 387px;
+  height: 26px;
+  flex-direction: column;
+}
+.rectangle45 {
+  position: absolute;
+  left: 320px;
+  top: 113px;
+  width: 433px;
+  height: 45px;
+  outline: solid 1px #000;
+  outline-offset: -1px;
+  border-radius: 43px;
+  background-color: #5cd5ff;
+}
+.searchForASalonService {
+  color: #000;
+  font-size: 16px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 343px;
+  top: 126px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
